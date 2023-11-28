@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Animation</title>
+    <style>
+        body{
+            background-image: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699228800&semt=ais)  ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .heart {
+          font-size: 10rem;
+          animation: heart  .5s infinite alternate linear;
+          color: orangered;
+          text-shadow: 25px 10px black;
+          text-align: center;
+        }
+        @keyframes heart{
+            from{
+           transform: scale(.7);
+            }
+            to{
+               transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="heart">जय श्री राम!</div>
+</body>
+</html>

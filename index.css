@@ -1,0 +1,58 @@
+.CS{
+    background-color: wheat ;
+    height: auto;
+    width: auto;
+    
+}
+.hii{
+background: springgreen;
+display: flex;
+
+}
+.one{
+width: 30%;
+display: block;
+
+}
+#two{
+width: 40%;
+display: block;
+
+}
+#three{
+width: 30%;
+display: block;
+
+}
+.A{
+    
+    background-color: yellow;
+}
+.B{
+    background-color: red;
+}
+.C{
+    background-color: green;
+}
+.D{
+    background-color: aqua;
+}
+table{
+    padding: 5px;
+    margin: 10px;
+    background-color: black;
+    width: 250px;
+    height: 200px;
+    
+}
+.some{
+     
+    justify-content: center; 
+    
+
+}
+p.red{
+    color:red;
+}
+
+

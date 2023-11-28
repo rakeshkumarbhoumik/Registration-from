@@ -1,0 +1,5 @@
+alert("hello guys")
+var name1=prompt("enter the name")
+var age=Number(prompt("enter your age"))
+console.log(name1)
+console.log(age)
